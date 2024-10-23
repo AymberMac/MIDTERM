@@ -7,14 +7,6 @@ var satMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/W
     attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Communit'
 });
 
-// create map layer group
-var baseMaps = {
-    "ArcGIS World Imagery": satMap,
-    "ArcGIS World Topo": topoMap,
-};
-
-var layerControl = L.control.layers(baseMaps).addTo(map);
-
 // add coffee JSON
 var coffee = {
     "type": "FeatureCollection",
@@ -308,3 +300,18 @@ var bookStores = L.geoJSON(books, {
         fillColor: "#f1c40f",
     }
 }).addTo(map);
+
+// create map layer group
+var baseMaps = {
+    "ArcGIS World Imagery": satMap,
+    "ArcGIS World Topo": topoMap,
+};
+
+// create point layer groups
+var overlayMaps = {
+    "Coffee": coffeeShops,
+    "Bookstores": bookStores,
+};
+
+var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
