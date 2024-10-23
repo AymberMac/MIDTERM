@@ -223,12 +223,15 @@ var coffee = {
 };
 
 var coffeeShops = L.geoJSON(coffee, {
+    pointToLayer: function(feature, latlng) {
+        var coffeeIcon = L.icon({
+            iconUrl: 'starbucksLogo.png',
+            iconSize: [40, 40],
+        });
+        return L.marker(latlng, {icon: coffeeIcon});
+    },
     onEachFeature: function (feature, layer) {
         layer.bindPopup(`<b>Name: <b>` + feature.properties.name)
-    },
-	style: {
-        radius: 10,
-        fillColor: "#196f3d",
     }
 }).addTo(map);
 
@@ -292,14 +295,18 @@ var books = {
 };
 
 var bookStores = L.geoJSON(books, {
+    pointToLayer: function(feature, latlng) {
+        var bookIcon = L.icon({
+            iconUrl: 'books.png',
+            iconSize: [40, 40],
+        });
+        return L.marker(latlng, {icon: bookIcon});
+    },
     onEachFeature: function (feature, layer) {
         layer.bindPopup(`<b>Name: <b>` + feature.properties.name)
-    },
-    style: {
-        radius: 10,
-        fillColor: "#f1c40f",
     }
 }).addTo(map);
+
 
 // create map layer group
 var baseMaps = {
@@ -313,5 +320,5 @@ var overlayMaps = {
     "Bookstores": bookStores,
 };
 
-var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+var layerControl = L.control.layers(baseMaps, ).addTo(map);
 
