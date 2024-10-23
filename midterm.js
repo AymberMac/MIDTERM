@@ -231,7 +231,7 @@ var coffeeShops = L.geoJSON(coffee, {
         return L.marker(latlng, {icon: coffeeIcon});
     },
     onEachFeature: function (feature, layer) {
-        layer.bindPopup(`<b>Name: <b>` + feature.properties.name)
+        layer.bindPopup(`Name: ` + feature.properties.name)
     }
 }).addTo(map);
 
