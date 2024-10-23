@@ -307,7 +307,6 @@ var bookStores = L.geoJSON(books, {
     }
 }).addTo(map);
 
-
 // create map layer group
 var baseMaps = {
     "ArcGIS World Imagery": satMap,
