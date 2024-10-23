@@ -14,7 +14,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Belleview Ave & Prince St",
         },
         "geometry": {
           "type": "Point",
@@ -27,7 +27,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Broadway & Fremont Pl",
         },
         "geometry": {
           "type": "Point",
@@ -40,7 +40,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Littleton Blvd & Cedar St",
         },
         "geometry": {
           "type": "Point",
@@ -53,7 +53,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Kipling Pkwy & Chatfield Ave",
         },
         "geometry": {
           "type": "Point",
@@ -66,7 +66,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Wadsworth Blvd & Bowles Ave",
         },
         "geometry": {
           "type": "Point",
@@ -79,7 +79,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: University Blvd & Orchard Ave",
         },
         "geometry": {
           "type": "Point",
@@ -92,7 +92,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Kipling Pkwy & Belleview Ave",
         },
         "geometry": {
           "type": "Point",
@@ -105,7 +105,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Rampart Range Rd & Waterton Rd",
         },
         "geometry": {
           "type": "Point",
@@ -118,7 +118,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Ken Caryl Ave & Chatfield Ave",
         },
         "geometry": {
           "type": "Point",
@@ -131,7 +131,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Wadsworth Blvd & Chatfield Ave",
         },
         "geometry": {
           "type": "Point",
@@ -144,7 +144,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Broadway & Belleview Ave",
         },
         "geometry": {
           "type": "Point",
@@ -157,7 +157,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Lucent Blvd & Town Center Dr",
         },
         "geometry": {
           "type": "Point",
@@ -170,7 +170,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Highlands Ranch Pkwy & Town Center Dr",
         },
         "geometry": {
           "type": "Point",
@@ -183,7 +183,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Wildcat Reserve Pkwy & McArthur Ranch Rd",
         },
         "geometry": {
           "type": "Point",
@@ -196,7 +196,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: University Blvd & Highlands Ranch Pkwy",
         },
         "geometry": {
           "type": "Point",
@@ -209,7 +209,7 @@ var coffee = {
       {
         "type": "Feature",
         "properties": {
-          "name": "Starbucks",
+          "name": "Starbucks: Arapahoe Rd & Glenco St",
         },
         "geometry": {
           "type": "Point",
