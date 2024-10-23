@@ -319,5 +319,4 @@ var overlayMaps = {
     "Bookstores": bookStores,
 };
 
-var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
-
+var layerControl = L.control.layers(baseMaps, ).addTo(map);
